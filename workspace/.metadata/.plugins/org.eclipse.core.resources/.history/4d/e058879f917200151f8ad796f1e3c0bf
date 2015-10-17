@@ -1,0 +1,196 @@
+//Mein zweites Programm
+
+/*
+ * main.cpp
+ */
+
+#include <iostream>
+#include <iomanip>
+#include <climits>
+#include <cfloat>
+
+using namespace std;
+
+int main() {
+
+	//Ausgabe mit cout
+
+	/*cout << "Hi, \n";
+	cout << "das hier ist mein 2. Programm,"<< " das Steuerzeichen,";
+	cout << " Kommentare, und\nflush() erläutert." << endl << endl;
+	cout.flush();*/
+
+
+
+	//Formatierung
+
+//	int anzahl = 2;
+//	double preis = 1.40;
+//
+//
+//
+//	 cout << "Anzahl: "<< anzahl << endl;
+//	 cout << "Preis: "<< preis << " Euro"<< endl << endl;
+//
+//	 //setw() setzt eine Breite  vor der Ausgabe(Füllzeichen)
+//	 cout << "Anzahl: "<< setw(8) << anzahl << endl;
+//	 cout << "Preis:  "<< setw(8) << preis << " Euro"<< endl;
+//
+//	 // setfill gibt an welches Füllzeichen genommen werden soll.
+//	 cout << setfill('.');
+//	 cout << "Anzahl: "<< setw(8) << anzahl << endl;
+//	 cout << "Preis:  "<< setw(8) << preis << " Euro"<< endl;
+//
+//
+//	 // fixed bedeuted Zahlen mit fester Nachkomma sollen formatiert werden.
+//	 // setprecision sagt an wieviel Nachkommastellen
+//	 cout << fixed << setprecision(2);
+//	 cout << "Preis:  "<< setw(8) << preis << " Euro"<< endl;
+//
+//	 //left heißt linksbündige Ausgabe
+//	 cout << left;
+//	 cout << "Preis:  "<< setw(8) << preis << " Euro"<< endl;
+
+
+
+	//Rechnen
+
+//	int anzahlApfel = 2, anzahlBirne = 4;
+//	double preisApfel = 1.45, preisBirne = 0.85;
+//
+//	double summeRechnung, preisMittel, preisDifferenz;
+//
+//
+//
+//	summeRechnung = (anzahlApfel * preisApfel)
+//			+ (anzahlBirne *  preisBirne);
+//
+//	preisMittel = summeRechnung / (anzahlApfel + anzahlBirne);
+//
+//	preisDifferenz = preisApfel - preisBirne;
+//
+//
+//	cout << fixed << setprecision(2);
+//	cout << "Summe der Rechnung: " << summeRechnung << " Euro" <<endl;
+//	cout << "Mittlerer Preis: " << preisMittel << " Euro" <<endl;
+//	cout << "Preis-Differenz: " << preisDifferenz << " Euro" <<endl;
+
+	//Eingabe mit cin
+
+//	int anzahl;
+//	double preis;
+//
+//	cout << "Anzahl eingeben: ";
+//	cin >> anzahl;
+//
+//	cout << "Preis in Euro eingeben: ";
+//	cin >> preis;
+//
+//	cout << "Anzahl: " << anzahl << endl;
+//	cout << "Preis: " << preis << " Euro" << endl;
+
+
+
+	//Fehler im Code behandeln
+
+//		int anzahlApfel = 2, anzahlBirne = 4;
+//		double preisApfel = 1.45, preisBirne = 0.85;
+//
+//		double summeRechnung, preisMittel, preisDifferenz;
+//
+//
+//
+//		summeRechnung = (anzahlApfel * preisApfel)
+//				+ (anzahlBirne *  preisBirne);
+//
+//		preisMittel = summeRechnung / (anzahlApfel + anzahlBirne);
+//
+//		preisDifferenz = preisApfel - preisBirne;
+//
+//		cout << fixed << setprecision(2);
+//		cout << "Summe der Rechnung: " << summeRechnung << " Euro." << endl;
+//		cout << "Mittlerer Preis: " << preisMittel << " Euro." << endl;
+//		cout << "Preis-Differenz: " << preisDifferenz << " Euro." << endl;
+
+
+
+//	//Größe der Datentypen
+//
+//	// unsigned int hat keine negativen Vorzeichen
+//
+//	cout << "char: " << sizeof(char) << " Byte, ";
+//	cout << "von " << CHAR_MIN << " bis " << CHAR_MAX << endl;
+//
+//	cout << "unsigned char: " << sizeof(unsigned char) << " Byte, ";
+//	cout << "von 0 bis " << UCHAR_MAX << endl;
+//
+//	cout << "short: " << sizeof(short) << " Byte, ";
+//	cout << "von " << SHRT_MIN << " bis " << SHRT_MAX << endl;
+//
+//	cout << "unsigned short: " << sizeof(unsigned short) << " Byte, ";
+//	cout << "von 0 bis " << USHRT_MAX << endl;
+//
+//	cout << "int: " << sizeof(int) << " Byte, ";
+//	cout << "von " << INT_MIN << " bis " << INT_MAX << endl;
+//
+//	cout << "unsigned int: " << sizeof(unsigned int) << " Byte, ";
+//	cout << "von 0" << " bis " << UINT_MAX << endl;
+//
+//	cout << "long: " << sizeof(long) << " Byte, ";
+//	cout << "von " << LONG_MIN << " bis " << LONG_MAX << endl;
+//
+//	cout << "unsigned long: " << sizeof(unsigned long) << " Byte, ";
+//	cout << "von 0" << " bis " << ULONG_MAX << endl << endl;
+//
+//
+//	cout << "float: " << sizeof(float) << " Byte, ";
+//	cout << "von " << FLT_MIN << " bis " << FLT_MAX << endl;
+//
+//	cout << "double: " << sizeof(double) << " Byte, ";
+//	cout << "von " << DBL_MIN << " bis " << DBL_MAX << endl;
+//
+//	cout << "long double: " << sizeof(long double) << " Byte, ";
+//	cout << "von " << LDBL_MIN << " bis " << LDBL_MAX << endl << endl;
+//
+//	cout << fixed << setprecision(30);
+//	cout << "1/7 in float:       " << 1.0f / 7 << endl;
+//	cout << "1/7 in double:      " << 1.0 / 7 << endl;
+//	cout << "1/7 in long double: " << 1.0L / 7 << endl;
+
+	//if else
+
+//	double preis;
+//
+//	cout << "Bitte Artikelpreis eingeben: ";
+//
+//	cin>> preis;
+//
+//	if (preis > 0.99) {
+//		cout << "Ein teuerer Artikel" << endl;
+//	} else {
+//		cout << "Ein billiger Artikel" << endl;
+//		cout << "Den nehmen wir" << endl;
+//	}
+
+
+	// Vergleichsoperatoren
+
+
+	double preisApfel = 1.45, preisBirne = 0.85, preisKiwi = 1.45;
+
+	if (preisApfel > preisBirne) {
+		cout << "Apfel ist teurer als Birne." << endl;
+
+	}
+	if (preisBirne < preisKiwi) {
+		cout << "Birne ist billiger als Kiwi." << endl;
+
+	}
+
+	if (preisApfel >= preisKiwi) {
+		cout << "Apfel ist mindestens so teuer wie Kiwi." << endl;
+	}
+	if (preisBirne <= preisKiwi) {
+		cout << "Kiwi ist mindestens so teuer wie Birne." << endl;
+	}
+}

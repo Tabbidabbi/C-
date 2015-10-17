@@ -1,0 +1,117 @@
+//Mein zweites Programm
+
+/*
+ * main.cpp
+ */
+
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+	/*cout << "Hi, \n";
+	cout << "das hier ist mein 2. Programm,"<< " das Steuerzeichen,";
+	cout << " Kommentare, und\nflush() erläutert." << endl << endl;
+	cout.flush();*/
+
+
+//	int z ;
+//		int i = 3;
+//
+//		cout << "Der Wert der Variablen: " << i << "/" << z << endl;
+//
+//	return 0;
+
+//	int z;
+//
+//	cout << "Bitte geben Sie eine Zahl ein: " << endl;
+//
+//	cin >> z;
+//
+//	cout << "z hat den Wert: " << z << endl;
+//
+//	return 0;
+
+//
+//	int MeineVariable = 4;
+//	MeineVariable = 3;
+//
+//	cout << MeineVariable << endl;
+//
+//	int i = MeineVariable + MeineVariable;
+//
+//	cout << i << endl;
+//
+//	return 0;
+
+//	int z,x,y,Test;
+//
+//	cout << "Bitte geben sie eine Zahl ein: " << endl;
+//
+//	cin >> z;
+//
+//	cout << endl << endl << "Bitte geben sie eine zweite Zahl ein: " << endl;
+//
+//	cin >> x;
+//
+//	y = Test = ((z+x) * x) + 5;
+//
+//	cout << "y hat den Wert: " << y << endl;
+//
+//	return 0;
+
+	//Formatierung
+//	int anzahl = 2;
+//	double preis = 1.40;
+//
+//
+//
+//	 cout << "Anzahl: "<< anzahl << endl;
+//	 cout << "Preis: "<< preis << " Euro"<< endl << endl;
+//
+//	 //setw() setzt eine Breite  vor der Ausgabe(Füllzeichen)
+//	 cout << "Anzahl: "<< setw(8) << anzahl << endl;
+//	 cout << "Preis:  "<< setw(8) << preis << " Euro"<< endl;
+//
+//	 // setfill gibt an welches Füllzeichen genommen werden soll.
+//	 cout << setfill('.');
+//	 cout << "Anzahl: "<< setw(8) << anzahl << endl;
+//	 cout << "Preis:  "<< setw(8) << preis << " Euro"<< endl;
+//
+//
+//	 // fixed bedeuted Zahlen mit fester Nachkomma sollen formatiert werden.
+//	 // setprecision sagt an wieviel Nachkommastellen
+//	 cout << fixed << setprecision(2);
+//	 cout << "Preis:  "<< setw(8) << preis << " Euro"<< endl;
+//
+//	 //left heißt linksbündige Ausgabe
+//	 cout << left;
+//	 cout << "Preis:  "<< setw(8) << preis << " Euro"<< endl;
+
+
+
+	//Rechnen
+
+	int anzahlApfel = 2, anzahlBirne = 4;
+	double preisApfel = 1.45, preisBirne = 0.85;
+
+	double summeRechnung, preisMittel, preisDifferenz;
+
+
+
+	summeRechnung = (anzahlApfel * preisApfel)
+			+ (anzahlBirne *  preisBirne);
+
+	preisMittel = summeRechnung / (anzahlApfel + anzahlBirne);
+
+	preisDifferenz = preisApfel - preisBirne;
+
+
+	cout << fixed << setprecision(2);
+	cout << "Summe der Rechnung: " << summeRechnung << " Euro" <<endl;
+	cout << "Mittlerer Preis: " << preisMittel << " Euro" <<endl;
+	cout << "Preisdifferenz: " << preisDifferenz << " Euro" <<endl;
+
+
+
+}

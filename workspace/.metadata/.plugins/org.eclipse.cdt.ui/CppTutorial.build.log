@@ -1,0 +1,7 @@
+19:16:21 **** Incremental Build of configuration Debug for project CppTutorial ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o tut.o "..\\tut.cpp" 
+g++ -o CppTutorial.exe tut.o 
+
+19:16:22 Build Finished (took 444ms)
+

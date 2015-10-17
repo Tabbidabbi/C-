@@ -1,0 +1,124 @@
+//Mein zweites Programm
+
+/*
+ * main.cpp
+ */
+
+#include <iostream>
+#include <iomanip>
+#include <climits>
+#include <cfloat>
+
+using namespace std;
+
+int main() {
+
+	//Ausgabe mit cout
+
+	/*cout << "Hi, \n";
+	cout << "das hier ist mein 2. Programm,"<< " das Steuerzeichen,";
+	cout << " Kommentare, und\nflush() erläutert." << endl << endl;
+	cout.flush();*/
+
+
+
+	//Formatierung
+
+//	int anzahl = 2;
+//	double preis = 1.40;
+//
+//
+//
+//	 cout << "Anzahl: "<< anzahl << endl;
+//	 cout << "Preis: "<< preis << " Euro"<< endl << endl;
+//
+//	 //setw() setzt eine Breite  vor der Ausgabe(Füllzeichen)
+//	 cout << "Anzahl: "<< setw(8) << anzahl << endl;
+//	 cout << "Preis:  "<< setw(8) << preis << " Euro"<< endl;
+//
+//	 // setfill gibt an welches Füllzeichen genommen werden soll.
+//	 cout << setfill('.');
+//	 cout << "Anzahl: "<< setw(8) << anzahl << endl;
+//	 cout << "Preis:  "<< setw(8) << preis << " Euro"<< endl;
+//
+//
+//	 // fixed bedeuted Zahlen mit fester Nachkomma sollen formatiert werden.
+//	 // setprecision sagt an wieviel Nachkommastellen
+//	 cout << fixed << setprecision(2);
+//	 cout << "Preis:  "<< setw(8) << preis << " Euro"<< endl;
+//
+//	 //left heißt linksbündige Ausgabe
+//	 cout << left;
+//	 cout << "Preis:  "<< setw(8) << preis << " Euro"<< endl;
+
+
+
+	//Rechnen
+
+//	int anzahlApfel = 2, anzahlBirne = 4;
+//	double preisApfel = 1.45, preisBirne = 0.85;
+//
+//	double summeRechnung, preisMittel, preisDifferenz;
+//
+//
+//
+//	summeRechnung = (anzahlApfel * preisApfel)
+//			+ (anzahlBirne *  preisBirne);
+//
+//	preisMittel = summeRechnung / (anzahlApfel + anzahlBirne);
+//
+//	preisDifferenz = preisApfel - preisBirne;
+//
+//
+//	cout << fixed << setprecision(2);
+//	cout << "Summe der Rechnung: " << summeRechnung << " Euro" <<endl;
+//	cout << "Mittlerer Preis: " << preisMittel << " Euro" <<endl;
+//	cout << "Preis-Differenz: " << preisDifferenz << " Euro" <<endl;
+
+	//Eingabe mit cin
+
+//	int anzahl;
+//	double preis;
+//
+//	cout << "Anzahl eingeben: ";
+//	cin >> anzahl;
+//
+//	cout << "Preis in Euro eingeben: ";
+//	cin >> preis;
+//
+//	cout << "Anzahl: " << anzahl << endl;
+//	cout << "Preis: " << preis << " Euro" << endl;
+
+
+
+	//Fehler im Code behandeln
+
+//		int anzahlApfel = 2, anzahlBirne = 4;
+//		double preisApfel = 1.45, preisBirne = 0.85;
+//
+//		double summeRechnung, preisMittel, preisDifferenz;
+//
+//
+//
+//		summeRechnung = (anzahlApfel * preisApfel)
+//				+ (anzahlBirne *  preisBirne);
+//
+//		preisMittel = summeRechnung / (anzahlApfel + anzahlBirne);
+//
+//		preisDifferenz = preisApfel - preisBirne;
+//
+//		cout << fixed << setprecision(2);
+//		cout << "Summe der Rechnung: " << summeRechnung << " Euro." << endl;
+//		cout << "Mittlerer Preis: " << preisMittel << " Euro." << endl;
+//		cout << "Preis-Differenz: " << preisDifferenz << " Euro." << endl;
+
+
+
+	//Datentypen
+
+	cout << "int: " << sizeof(int) << " Byte, ";
+	cout << "von " << INT_MIN << " bis " << INT_MAX << endl;
+
+
+
+}

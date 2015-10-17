@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+	int z;
+	int i = 3;
+
+	cout << "Der Wert der Variablen: " << i << "/" << z << endl;
+
+	return 0;
+}

@@ -1,0 +1,73 @@
+//Mein zweites Programm
+
+/*
+ * main.cpp
+ */
+
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+	/*cout << "Hi, \n";
+	cout << "das hier ist mein 2. Programm,"<< " das Steuerzeichen,";
+	cout << " Kommentare, und\nflush() erläutert." << endl << endl;
+	cout.flush();*/
+
+
+//	int z ;
+//		int i = 3;
+//
+//		cout << "Der Wert der Variablen: " << i << "/" << z << endl;
+//
+//	return 0;
+
+//	int z;
+//
+//	cout << "Bitte geben Sie eine Zahl ein: " << endl;
+//
+//	cin >> z;
+//
+//	cout << "z hat den Wert: " << z << endl;
+//
+//	return 0;
+
+//
+//	int MeineVariable = 4;
+//	MeineVariable = 3;
+//
+//	cout << MeineVariable << endl;
+//
+//	int i = MeineVariable + MeineVariable;
+//
+//	cout << i << endl;
+//
+//	return 0;
+
+//	int z,x,y,Test;
+//
+//	cout << "Bitte geben sie eine Zahl ein: " << endl;
+//
+//	cin >> z;
+//
+//	cout << endl << endl << "Bitte geben sie eine zweite Zahl ein: " << endl;
+//
+//	cin >> x;
+//
+//	y = Test = ((z+x) * x) + 5;
+//
+//	cout << "y hat den Wert: " << y << endl;
+//
+//	return 0;
+
+	int anzahl = 2;
+	double preis = 1.40;
+
+
+
+	 cout << "Anzahl: "<< anzahl << endl;
+	 cout << "Preis: "<< preis << "Euro"<< endl;
+
+
+
+}
