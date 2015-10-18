@@ -1,0 +1,40 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+
+void hexWert() {
+	int anyNumber;
+
+	cout << "Bitte irgendeine Zahl eingeben: " ;
+
+
+	cin >> anyNumber;
+
+	cout << "Sie haben " << anyNumber << " eingegeben der Hex Wert lautet: "
+			<< hex << anyNumber << endl;
+}
+
+void postIncrement() {
+
+	int i = 13;
+	int j;
+
+	i++;
+	for (; i < 42;i++) {
+		cout << i << endl;
+	}
+
+	++j;
+	for (j = 1; j < 42;++j) {
+		cout << j << endl;
+	}
+
+
+}
+
+
+int main() {
+	postIncrement();
+
+}

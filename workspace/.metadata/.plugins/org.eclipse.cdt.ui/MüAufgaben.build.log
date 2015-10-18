@@ -1,0 +1,7 @@
+22:58:10 **** Incremental Build of configuration Debug for project MüAufgaben ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Aufgabenpool1.o "..\\Aufgabenpool1.cpp" 
+g++ -o MüAufgaben.exe Aufgabenpool1.o 
+
+22:58:10 Build Finished (took 465ms)
+

@@ -1,0 +1,22 @@
+#include <iostream>;
+using namespace std;
+
+
+void hexWert() {
+	int anyNumber;
+
+	cout << "Bitte irgendeine Zahl eingeben: " ;
+
+
+	cin >> anyNumber;
+
+	cout << "Sie haben " << anyNumber << "eigegeben der Hex Wert lautet: "
+			<< hex << anyNumber << endl;
+}
+
+
+int main() {
+
+	hexWert();
+
+}
